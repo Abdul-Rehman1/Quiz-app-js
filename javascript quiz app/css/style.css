@@ -1,0 +1,72 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    background-color: #E2DFDF;
+    color:white;
+}
+div{
+    margin: 0px;
+}
+
+.header {
+    background: #303E39;
+    width: 100%;
+    padding: 0px 20px;
+    clear: both;
+    display: block;
+    content: "";
+    height: 70px;
+}
+.header h1{
+    color: white;
+}
+.clear{
+    clear: both;
+    display: block;
+    content: "";
+}
+.width33 {
+    width: 33%;
+    float: left;
+}
+.content {
+    width: 80%;
+    margin: 56px auto 0px auto;
+    background: #D8DCDB;
+    color: #40403F;
+    box-shadow: 0px 0px 8px 0px #A7A7A7;
+    padding: 11px 20px;
+}
+div#timer {
+    margin-top: 25px;
+    background-color: white;
+    padding: 9px;
+    width: 35%;
+    text-align: center;
+    border-radius: 28px;
+    color: black;
+}
+#gotoAdmin {
+        background-color: #228BBF;
+    color: white;
+    float: right;
+    vertical-align: middle;
+    margin-right: 36px;
+    padding: 8px 13px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+}
+p.bot-border {
+    border-bottom: 1px solid white;
+}
+form[name="indexQuizForm"] p input {
+    margin-left: 13px;
+}
+input#next {
+    padding: 5px 20px;
+    text-align: right;
+    background-color: #292828;
+    font-weight: bold;
+    color: #BDBABA;
+}

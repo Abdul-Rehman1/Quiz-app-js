@@ -1,0 +1,62 @@
+.wrong-validate{
+    outline: 1px solid red;
+}
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    background-color: #E2DFDF;
+    color:black;
+}
+div{
+    margin: 0px;
+}
+
+.header {
+    background: #303E39;
+    width: 100%;
+    padding: 0px 20px;
+    clear: both;
+    display: block;
+    content: "";
+    height: 70px;
+}
+.header h1 {
+    color: white;
+    margin: 0px;
+    padding-top: 20px;
+}
+.clear{
+    clear: both;
+    display: block;
+    content: "";
+}
+.setlogowidth {
+    float: left;
+}
+.setlogowidth a {
+    color: red;
+    float: right;
+    margin-right: 26px;
+    position: relative;
+    bottom: -42px;
+}
+.content {
+    width: 70%;
+    margin: 42px auto 0px auto;
+}
+.form-group h3 {
+    color: #F13106;
+}
+form#createnewQ {
+    background: #807D7D;
+    padding: 10px 10px;
+}
+
+#timing
+{
+    text-align: right;
+    margin-bottom: 6px;
+}
+.form-group textarea {
+    width: 98%;
+}

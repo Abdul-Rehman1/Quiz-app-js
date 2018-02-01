@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="css/admin-style.css" rel="stylesheet">
+</head>
+<body onload="admin_createQuestion();">
+    <div class="main-wrpper">
+      <div class="wraper">
+        <div class="header">
+        <div style="width: 80%;" class="setlogowidth">
+            <h1>Quiz App - Admin</h1>
+        </div>
+        <div style="width: 18%;" class="setlogowidth">
+            <a href="JavaScript:void(0)" onclick="location='index.html'" >Logout</a>
+        </div>       
+        </div>
+        <div class="clear"></div>
+        <div class="content">
+            <div id="timing">
+                <label>Enter time(minutes -Auto save)</label>
+                <input type="number" step="1" min="1" id="timepick" oninput="savetime()" value="1" />
+            </div>
+            <div id="addQ">
+                            
+                <form id="createnewQ">
+                    <div class="form-group">
+                    <h3>Create a question</h3>
+                        <label>Enter the question</label>
+                        <textarea placeholder="Type your question here"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>how many options do you want</label>
+                        <input type="number" step="1" min="0" id="noofoptns" value="0" />
+                        <input type="button" onclick="createOptions()" value="Add option">
+                    </div>
+                    <div class="form-group" id="optns">
+                    
+                    </div>
+                    <div class="form-group">
+                        <input type="button" value="Save" onclick="save()"/>
+                    </div>
+                </form>
+                <h3>Questions List</h3>
+            </div>
+            <div id="quiz-sec"></div>
+        </div>
+        <div class="footer"></div>1
+      </div>
+    </div>
+    <input type="hidden" value="0" name="quiz-page" id="quiz-page">
+    <script src="js/app.js"></script>
+</body>
+</html>
